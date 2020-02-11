@@ -1,0 +1,156 @@
+html, body {
+    background-color:rgb(8, 41, 151);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a:link {
+color: lightblue;
+}
+a:visited {
+color: rgb(49, 111, 250);
+}
+a:hover {
+color: white;
+}
+a {
+  background-color: black;
+  border-radius: 5px;
+  padding: 1px;
+  border: 1px;
+  text-decoration: none;
+}
+
+header {
+    background-color: rgb(8, 41, 100);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav {
+    background:rgb(4, 7, 99);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block; 
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px;
+    margin-top: 0px;
+    /*
+    max-width: 500px;
+    */
+}
+
+ul {
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    width: 120px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color:rgb(49, 111, 150);
+    color: black;
+    /*
+    max-width: 465px;
+    */
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    position: relative;
+    top: 80px;
+}
+
+section {
+    /*float: top;*/
+    float: left;
+    background-color:rgb(120, 193, 238);
+    color: black;
+    
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+    top: 80px;
+    max-width: 600px;
+}
+
+aside {
+    /*float: top;*/
+    float: right;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+    top: 80px;
+    
+}
+
+h1 {
+  font-size: 55px;
+  font-style: italic;
+   
+}
+
+h1, .heading {
+    background-color: rgb(100, 127, 255);
+    
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 35px;
+  font-style: italic;
+  
+}
+
+h3 {
+  font-size: 30px;
+  
+}
+
+p {
+  font-size: 25px;
+  
+  
+}
+
+footer {
+    background-color: rgb(8, 41, 100);
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
