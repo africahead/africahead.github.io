@@ -1,20 +1,18 @@
 html, body {
-    background-color:rgb(8, 41, 151);
+    background-color: grey;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 a:link {
-color: lightblue;
+color: white;
 }
 a:visited {
-color: rgb(49, 111, 250);
+color: lightgrey;
 }
 a:hover {
-color: white;
+color: darkgrey;
 }
 a {
   background-color: black;
@@ -25,16 +23,14 @@ a {
 }
 
 header {
-    background-color: rgb(8, 41, 100);
+    background-color: darkgrey;
     position: fixed;
     width: 100%;
     z-index: 10;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 nav {
-    background:rgb(4, 7, 99);
+    background:lightgrey;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -59,7 +55,6 @@ li {
     display: inline-block;
     width: 120px;
     background-color: black;
-    color: white;
     padding: 5px;
     border: 5px;
     margin: 5px;
@@ -67,7 +62,7 @@ li {
 }
 
 main {
-    background-color:rgb(49, 111, 150);
+    background-color: lightgrey;
     color: black;
     /*
     max-width: 465px;
@@ -84,9 +79,9 @@ main {
 }
 
 section {
-    /*float: top;*/
+    float: top;
     float: left;
-    background-color:rgb(120, 193, 238);
+    background-color: white;
     color: black;
     
     text-align: center;
@@ -102,7 +97,7 @@ section {
 }
 
 aside {
-    /*float: top;*/
+    float: top;
     float: right;
     border-radius: 10px;
     padding: 10px;
@@ -116,13 +111,12 @@ aside {
 
 h1 {
   font-size: 55px;
-  font-style: italic;
-   
+  font-style: italic; 
 }
 
 h1, .heading {
-    background-color: rgb(100, 127, 255);
-    
+    background-color: lightgrey;
+    width: 100%;
     height: auto;
     padding-top: 8px;
     padding-bottom: 5px;
@@ -131,26 +125,21 @@ h1, .heading {
 h2 {
   font-size: 35px;
   font-style: italic;
-  
 }
 
 h3 {
   font-size: 30px;
-  
 }
 
 p {
   font-size: 25px;
-  
-  
 }
 
 footer {
-    background-color: rgb(8, 41, 100);
+    background-color: darkgrey;
     width: 100%;
     z-index: 10;
     position: relative;
     top: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    
 }
+
