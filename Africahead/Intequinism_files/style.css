@@ -1,0 +1,146 @@
+html, body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Consolas, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+color: white;
+}
+a:visited {
+color: lightgrey;
+}
+a:hover {
+color: darkgrey;
+}
+a {
+  background-color: black;
+  border-radius: 5px;
+  padding: 1px;
+  border: 1px;
+  text-decoration: none;
+}
+
+header {
+    background-color: darkgrey;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    background:lightgrey;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline-block; 
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px;
+    margin-top: 0px;
+    /*
+    max-width: 500px;
+    */
+}
+
+ul {
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    width: 120px;
+    background-color: black;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+main {
+    background-color: lightgrey;
+    color: black;
+    /*
+    max-width: 465px;
+    */
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    position: relative;
+    top: 80px;
+}
+
+section {
+    float: top;
+    float: left;
+    background-color: white;
+    color: black;
+    
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+    top: 80px;
+    max-width: 600px;
+}
+
+aside {
+    float: top;
+    float: right;
+    border-radius: 10px;
+    padding: 10px;
+    border: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+    top: 80px;
+    
+}
+
+h1 {
+  font-size: 55px;
+  font-style: italic; 
+}
+
+h1, .heading {
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 35px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 25px;
+}
+
+footer {
+    background-color: darkgrey;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    top: 80px;
+}
+
