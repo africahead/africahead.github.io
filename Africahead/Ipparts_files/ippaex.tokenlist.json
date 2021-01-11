@@ -1,6 +1,6 @@
 {
   "name": "IPPAEX List",
-  "uri": "https://africahead.github.io/Africahead/Moiom_files/TransparentFriendsFMoyomLogo.png",
+  "logoURI": "https://africahead.github.io/Africahead/Moiom_files/TransparentFriendsFMoyomLogo.png",
   "timestamp": "2021-01-11T12:30:00+00:00",
   "version": {
     "major": 1,
@@ -21,7 +21,7 @@
       "name": "Africahead Ipparts",
       "symbol": "AFA",
       "decimals": 2,
-      "uri": "https://africahead.github.io/Africahead/RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
+      "logoURI": "https://africahead.github.io/Africahead/RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
     },
     {
       "address": "0xa27be88ad1dce22609a4a7f4c395f861bbabeae2",
@@ -29,7 +29,7 @@
       "name": "Divided Party",
       "symbol": "DiP",
       "decimals": 8,
-      "uri": "https://dividedparty.github.io/indexfiles/DiPlogoRond.png"
+      "logoURI": "https://dividedparty.github.io/indexfiles/DiPlogoRond.png"
     },
     {
       "address": "0x5666bdc5c4F54f6ef65956e315E1A674932B68d5",
@@ -37,7 +37,7 @@
       "name": "fonetones",
       "symbol": "FON",
       "decimals": 6,
-      "uri": "https://fonetones.github.io/index_files/fonetonesLogo.png"
+      "logoURI": "https://fonetones.github.io/index_files/fonetonesLogo.png"
     },
     {
       "address": "0x4fE671f75feBe114dBEA88Bb8266C177cb5E466A",
@@ -45,7 +45,7 @@
       "name": "Kaeuoi",
       "symbol": "KAE",
       "decimals": 7,
-      "uri": "https://africahead.github.io/Tokens/Kaeuoi_files/Triangle.png"
+      "logoURI": "https://africahead.github.io/Tokens/Kaeuoi_files/Triangle.png"
     },
     {
       "address": "0xb9892f9a892f3e251fc58b9076c56add528eb8a6",
