@@ -1,0 +1,51 @@
+{
+  "name": "IPPAEX List",
+  "timestamp": "2021-01-11T12:30:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "uniswap",
+    "default",
+    "list"
+  ],
+  "tokens": [
+    {
+      "address": "0xfb48e0dea837f9438309a7e9f0cfe7ee3353a84e",
+      "chainId": 1,
+      "name": "Africahead Ipparts",
+      "symbol": "AFA",
+      "decimals": 2
+    },
+    {
+      "address": "0xa27be88ad1dce22609a4a7f4c395f861bbabeae2",
+      "chainId": 1,
+      "name": "Divided Party",
+      "symbol": "DiP",
+      "decimals": 8
+    },
+    {
+      "address": "0x5666bdc5c4F54f6ef65956e315E1A674932B68d5",
+      "chainId": 1,
+      "name": "fonetones",
+      "symbol": "FON",
+      "decimals": 6
+    },
+    {
+      "address": "0x4fE671f75feBe114dBEA88Bb8266C177cb5E466A",
+      "chainId": 1,
+      "name": "Kaeuoi",
+      "symbol": "KAE",
+      "decimals": 7
+    },
+    {
+      "address": "0xb9892f9a892f3e251fc58b9076c56add528eb8a6",
+      "chainId": 1,
+      "name": "Moyom",
+      "symbol": "MYM",
+      "decimals": 18
+    },
+  ]
+}
