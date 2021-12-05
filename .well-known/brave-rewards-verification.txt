@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: africahead.github.io
+Token: fab2a35d7889e921eb5f85cebec4cc64aa8a23a3ff333a3fdbc13b3dd79b2623
