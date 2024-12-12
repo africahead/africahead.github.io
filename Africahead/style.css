@@ -65,9 +65,9 @@ li {
 main {
     background-color: lightgrey;
     color: black;
-    
+    /*
     max-width: 700px;
-    
+    */
     text-align: center;
     display: inline-block;
     border-radius: 10px;
