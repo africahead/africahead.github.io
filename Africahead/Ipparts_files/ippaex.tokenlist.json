@@ -24,14 +24,6 @@
       "logoURI": "https://africahead.github.io/Africahead/RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
     },
     {
-      "address": "0xa27be88ad1dce22609a4a7f4c395f861bbabeae2",
-      "chainId": 1,
-      "name": "Divided Party",
-      "symbol": "DiP",
-      "decimals": 8,
-      "logoURI": "https://dividedparty.github.io/indexfiles/DiPlogoRond.png"
-    },
-    {
       "address": "0x5666bdc5c4F54f6ef65956e315E1A674932B68d5",
       "chainId": 1,
       "name": "fonetones",
@@ -46,14 +38,6 @@
       "symbol": "KAE",
       "decimals": 7,
       "logoURI": "https://africahead.github.io/Tokens/Kaeuoi_files/Triangle.png"
-    },
-    {
-      "address": "0xb9892f9a892f3e251fc58b9076c56add528eb8a6",
-      "chainId": 1,
-      "name": "Moyom",
-      "symbol": "MYM",
-      "decimals": 18,
-      "logoURI": "https://africahead.github.io/Africahead/Moiom_files/TransparentEtherscan256MoyomLogo.png"
     }
   ]
 }
