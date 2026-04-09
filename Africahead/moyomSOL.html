@@ -1,432 +1,575 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta content="width=device-width, initial-scale=1">
-      <title>MYM on pump.fun</title>
-      <link href="style.css" type="text/css" rel="stylesheet">
-      
-      <!--ShareCode-->
-      <meta name="twitter:card" content="summary_large_image">
-      <meta property="og:title" content="Moyom (MYM) Utility Token/Currency">
-      <meta property="og:description" content="MYM's primary function is funding brand development.">
-      <meta property="og:image" content="http://www.africahead.co.za/Africahead/Moiom_files/MoiomLogoLargeCloseTo1910by1000.png">
-      <meta property="og:url" content="https://www.africahead.co.za/Africahead/Moyom.html">
-      <!---->
-      
-  </head>
-    <body>
-      <header>
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-            <li><a href="Team.html">Team</a></li>
-            <li><a href="IppartsExchange.html" target="_blank">IPPAEX</a></li>
-            <!--<li><a href="BookingOrdersSellAFA.html" target="_blank">AFA Offers</a></li>
-            <li><a href="RaisingCapital.html" target="_blank">AFA Terms</a></li>-->
-            <li><a href="Moyom.html" target="_blank">Ethereum</a></li>
-            
-            <li><a href="https://github.com/africahead" target="_blank">GitHub</a></li>
-          </ul>
-        </nav>
-    </header>
-    <main>
-      <section>
-            <h3>∞ ⋈ ∞ ∞ ⋈ ∞ ∞ ⋈ ∞</h3>
-            
-            <h1 class="heading">Moyom (MYM), Venture Capital, Angel Money, on the Solana Chain</h1>
-            
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1">
+  <title>MYM on pump.fun</title>
 
-            
-            <p><img src="Moiom_files/MoiomLogoCorelJan102009GIFMovie2.gif" alt="Moiom
-               logo MIM 1999" height="99" width="100">
-               <img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="transparent Moyom logo" height="99" width="100">
-              <img src="Moiom_files/RotatingMYM2.gif" alt="MYM GIF" height="99" width="100">
-              <img src="Moiom_files/ReworkedRanzoKiyama.gif" alt="From Telegram @RanzoKiyama" height="99" width="100">
-              <img src="Moiom_files/ReworkedRanzoKiyama2.gif" alt="From Telegram @RanzoKiyama" height="99" width="100"></p>
-            
-            <!--<p><a href="https://www.africahead.co.za/Africahead/Moiom_files/MoiomLogoCorelJan102009GIFMovie2.gif" target="_blank">Download moving logo</a></p>
-            <p><a href="https://www.africahead.co.za/Africahead/Moiom_files/TrezorTinyPNG128by128.png" target="_blank">Download still logo</a></p>-->
-            
-            <h2 class="heading">Community Props</h2>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Moyom (MYM) Utility Token/Currency">
+  <meta property="og:description" content="MYM's primary function is funding brand development.">
+  <meta property="og:image" content="http://www.africahead.co.za/Africahead/Moiom_files/MoiomLogoLargeCloseTo1910by1000.png">
+  <meta property="og:url" content="https://www.africahead.co.za/Africahead/Moyom.html">
 
-            <p><a href="https://www.africahead.co.za/Africahead/Moiom_files/TransparentFriendsFMoyomLogo.png" target="_blank">Download the .png MYM logo
-            with transparent background or use this link for the logo</a>.</p>
-            
-            <p><a href="https://www.africahead.co.za/Africahead/Moiom_files/TransparentFriendsFMoyomLogo.svg" target="_blank">Download the .svg MYM logo
-            with transparent background or use this link for the logo</a>.</p>
+  <style>
+    :root {
+      --gold: #f5c842;
+      --gold-dark: #c89a10;
+      --sol-purple: #9945FF;
+      --sol-green: #14F195;
+      --bg-dark: #0a0a14;
+      --bg-card: #12122a;
+      --bg-card2: #1a1a35;
+      --text-main: #f0f0f0;
+      --text-muted: #aaa;
+      --radius: 14px;
+    }
 
-            <p><a href="https://t.me/addstickers/p2549821775229060721_by_prstickers_bot" target="_blank">Telegram stickers by @Solanamod6.</a></p>
-            
-            <p><b>NB: Developing MYM is a long term project.
-            No guarantees can be given and it is not a token to buy for short term profit or retirement savings.</b></p>
-            
-            <h2 class="heading">Information</h2>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-            <p><a href="Moiom_files/MoyomWhitePaper3-signed.pdf" target="_blank">Whitepaper</a></p>
+    body {
+      background: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1.7;
+    }
 
-            <p>Reading on Youtube, of a whitepaper. Make sure to read the latest whitepaper self.
-              <br><br><iframe width="300" height="169" src="https://www.youtube.com/embed/Hf4SckPg-bo?si=lcEIqhiP35PCP9Ap" 
-              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-              gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </p>
+    /* NAV */
+    header {
+      background: var(--bg-card);
+      border-bottom: 2px solid var(--sol-purple);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 4px;
+      padding: 10px 16px;
+    }
+    header nav ul li a {
+      color: var(--sol-green);
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    header nav ul li a:hover {
+      border-color: var(--sol-green);
+      background: rgba(20,241,149,0.08);
+    }
 
-            <p><iframe height="800px" width="100%" id="geckoterminal-embed" title="GeckoTerminal Embed" 
-              src="https://www.geckoterminal.com/solana/pools/E9qutrxEKXkGLAiQVVTC5sBwr6d6a6hgcFYC6PZAH2Mr?embed=1&info=1&swaps=1&grayscale=0&light_chart=0&chart_type=price&resolution=15m" 
-              frameborder="0" allow="clipboard-write" allowfullscreen></iframe></p>
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(180deg, #0d0d20 0%, #0a0a14 100%);
+      border-bottom: 1px solid #222244;
+    }
+    .hero-symbol {
+      font-size: 32px;
+      color: var(--sol-purple);
+      letter-spacing: 4px;
+      margin-bottom: 16px;
+    }
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 52px);
+      font-weight: 800;
+      line-height: 1.2;
+      background: linear-gradient(90deg, var(--gold) 0%, var(--sol-green) 60%, var(--sol-purple) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 24px;
+    }
+    .logos-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 28px 0 10px;
+    }
+    .logos-row img {
+      border-radius: 10px;
+      background: #1a1a35;
+      padding: 4px;
+    }
 
-            <p>Moyom (MYM) venture capital angel money, is/will-be used on Ipparts Exchange (in development), to buy and sell brand
-              currencies, contractually backed by goodwill. Goodwill is an abstract asset, worth trillions, included in share prices,
-              but often, according to International Accounting Standards, not capitalized in equity of companies managing the goodwill.
-              Goodwill exists at the start of business, therefore goodwill can be used to raise startup capital, in the form of
-               brand currencies. Established businesses can also monetize their goodwill by listing brand currencies on IPPAEX.
-            </p>
-            
-            <p>1'000'000'000 MYM were issued 
-              on the Solana chain, and are traded at <a href="https://pump.fun/coin/9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump" 
-              target="_blank">pump.fun</a> and <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump" target="_blank">swap.pump.fun</a>. 
-              MYM is issued over the counter on the Ethereum Blockchain. The over the counter issue
-               price on Ethereum, will follow the Solana price.</p>
+    /* MAIN LAYOUT */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
 
-               <p>At pump.fun and swap.pump.fun, MYM is in a liquidity pool with Solana (SOL). A risk in the liquidity pool is, 
-                large buyers dumping on small
-                 buyers. Therefore the community policy is, not buying more than 1 SOL and selling, when someone buys more
-                  than 1 SOL. This way, the risk of large buyers dumping on small buyers, is reduced. Buying and holding 1 SOL
-                  or less, means
-                  a holder's value can grow with the project. As the project grows, the amount of 1 SOL will grow as well.
-               </p>
-        
-        <p>Moyom (MYM), was registered on the Solana Chain. 
-               The only approved Contract Address of MYM on Solana is:
-            </p>
-        
-        <p style="word-wrap: break-word; width: 300px">
-                <b>9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump</b>
-        </p>
-            
-            <p>Before interaction with MYM on the Solana Chain,
-              users must make sure the correct Contract Address above, is used.</p>
+    /* CARDS */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid #2a2a55;
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      margin-bottom: 32px;
+    }
+    .card-accent {
+      border-left: 4px solid var(--sol-purple);
+    }
+    .card-gold strong, .card h2 + p strong {
+      color: var(--gold);
+    }
 
-              <p><a href="https://docs.google.com/spreadsheets/d/1OUCaOcgTRWzn3fwoLvDTwjvN28YvyPe4YQmV9DLxzT8/edit?usp=sharing"
-              target="_blank">Price Calculation by date on Google Sheets.</a></p>
-            
-            <p><b>Short Term Roadmap</b></p>
-            <p>1) Sell Moyom (MYM) at Pump.fun, from out of the Bondpool. Africahead ownership of Ipparts Exchange (IPPAEX) tokens are stated in this
-              <a href="https://docs.google.com/spreadsheets/d/1epB-JtSHOHncCZyRkDU1JzBPloYptOrWpMh_8Mnk6jI/edit?usp=sharing"
-              target="_blank">Google Sheet</a>.
-              Africahead will do its best, to prevent rugs by large buyers, by keeping large buyers out. (This objective was completed
-              on 22 June 2025).
-            </p>
-            <p>2) Be promoted to the Pumpswap exchange, when the Bondpool on Pump.fun is filled 100%. (This objective was completed
-              on 22 June 2025)</p>
-            <p>3) 15'000'000 MYM was bought by Africahead, on request of the community and locked up for one year until
-              22 June 2026 at <a href="https://app.streamflow.finance/contract/solana/mainnet/FjkEGPoPNj1wGEzKEaSz8okaXCyuamfeZAAAvupoqRr7"
-              target="_blank">app.streamflow.finance</a>. (This objective was completed
-              on 22 June 2025)</p>
-            </p>
-              <p>4) MYM must trade on the Solana chain, whilst the value increases. MYM must be issued as stated in the White Paper
-                 to raise the 125 million USD value, which will be used to build Ipparts Exchange (IPPAEX). On June 3, 2025, no capital
-                has been raised.</p>
-            </p>
+    /* SECTION HEADINGS */
+    h2.section-title {
+      font-size: clamp(22px, 3.5vw, 34px);
+      font-weight: 700;
+      color: var(--sol-green);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2.section-title::before {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 34px;
+      background: var(--sol-purple);
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+    h3.sub-title {
+      font-size: clamp(18px, 2.5vw, 26px);
+      font-weight: 700;
+      color: var(--gold);
+      margin: 22px 0 12px;
+    }
 
-           <h2 class="heading">Social Media</h2>
+    /* BODY TEXT */
+    p, li {
+      font-size: clamp(17px, 2vw, 21px);
+      line-height: 1.75;
+      color: var(--text-main);
+      margin-bottom: 14px;
+    }
+    a {
+      color: var(--sol-green);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    a:hover { color: var(--gold); }
 
-          <p></p><a href="https://t.me/ippaex" target="_blank">Telegram</a>
+    /* WARNING BOX */
+    .warning-box {
+      background: rgba(245, 200, 66, 0.10);
+      border: 2px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      margin-bottom: 24px;
+      font-size: clamp(17px, 2vw, 20px);
+      color: var(--gold);
+      font-weight: 600;
+    }
+    .warning-box::before {
+      content: "⚠️  ";
+      font-size: 22px;
+    }
 
-          <br><br>
-                                
-          <a href="https://x.com/woof27308706" target="_blank">X</a>
+    /* CONTRACT ADDRESS */
+    .contract-box {
+      background: #0d0d20;
+      border: 2px solid var(--sol-purple);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      margin: 18px 0;
+      word-break: break-all;
+      font-family: 'Courier New', monospace;
+      font-size: clamp(16px, 1.8vw, 19px);
+      color: var(--sol-green);
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+    .contract-label {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-family: sans-serif;
+      font-weight: 400;
+      margin-bottom: 8px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
 
-          <br><br>
-                                
-          <a href="https://chat.whatsapp.com/K5sjXzrA81lLDukeNe1CG7" target="_blank">WhatsApp</a>
+    /* BUY BUTTONS */
+    .buy-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin: 24px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 10px;
+      font-size: clamp(17px, 2vw, 21px);
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+      cursor: pointer;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+    .btn-primary {
+      background: var(--sol-purple);
+      color: #fff;
+      box-shadow: 0 0 0 0 var(--sol-purple);
+    }
+    .btn-primary:hover {
+      color: #fff;
+      box-shadow: 0 4px 18px rgba(153,69,255,0.45);
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--sol-green);
+      border: 2px solid var(--sol-green);
+    }
+    .btn-secondary:hover {
+      background: rgba(20,241,149,0.1);
+      color: var(--sol-green);
+    }
 
-          <br><br>
-                                
-          <a href="https://web.facebook.com/ippaex/" target="_blank">Facebook</a>
-                               
-                        
-                    
-            
-            <!--<table style="width:100%" border="3px solid black">
-  <tr>
-    <th colspan="4"><b><span style="font-size: larger">MYM ON BINANCE SMART CHAIN</span></b></th>
-  </tr>
-  
-  <tr>
-    <th><b>Description</b></th>
-    <th><b>Terms</b></th>
-    <th><b>Exchange Counter</b></th>
-    <th><b>Pairs</b></th>
-  </tr>
-  
-  
-  
-  <tr>
-    <td>MYM can be used to buy Divided Party (DiP) 
-    brand tokens at Pancakeswap. DiP Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0x4fE671f75feBe114dBEA88Bb8266C177cb5E466A
-    </div>
-    
-    </td>
-    <td><a href="https://dividedparty.github.io/DiP/DiPtokens.html" target="_blank">
-    <img src="DividedParty_files/DiPlogoRond.png"
-    alt="Divided Party logo" height="20" width="20"> Divided Party (DiP)</a></td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br><a href="https://bscscan.com/address/0x4f3ec585a399e5ead534bd0c49652807a54898c2"
-    target="_blank">Pancakeswap MYM/DiP at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/DiP</b></td>
-  </tr>
-  
-  <tr>
-    <td>MYM can be used to buy fonetones (FON) 
-    brand tokens at Pancakeswap. FON Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0x919509831FbaA7DAE92B11ed39cB003DaA4DC68d
-    </div>
-    
-    </td>
-    <td><a href="https://fonetones.github.io/fonetones/FONtoken.html" target="_blank">
-    <img src="../indexfiles/android-chrome-256x256.png" alt="fonetones image" height="20" width="20"> fonetones (FON)</a></td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br><a href="https://bscscan.com/address/0x685905ea056e997a29e98939bfaf801f31892e05"
-    target="_blank">Pancakeswap MYM/FON at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/FON</b></td>
-  </tr>
-  
-  <tr>
-    <td>MYM can be used to buy Kaeuoi (KAE) 
-    brand tokens at Pancakeswap. KAE Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0x64F1d8af0F95D78337F7bA12921B284ba6ba390A
-    </div>
-    
-    </td>
-    <td><a href="https://kaeuoi.github.io/" target="_blank">
-    <img src="Ipparts_files/OnlyImage/Ka/Triangle.png" alt="Triangle image" height="20" width="20"> Kaeuoi (KAE)</a></td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br><a href="https://bscscan.com/address/0x9e16220393216ec9c8f945ad2fcdf03356eeb456"
-    target="_blank">Pancakeswap MYM/KAE at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/KAE</b></td>
-  </tr>
-  
-  <tr>
-    <td>MYM can be used to buy Africahead Ipparts (AFA) 
-    brand tokens at Pancakeswap. AFA Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0xF6E77fB8c3c428A90D1590736aAa0103E32F3A6D
-    </div>
-    
-    </td>
-    <td><a href="RaisingCapital.html" target="_blank">
-    <img src="RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
-    alt="Africahead Ipparts logo image" height="20" width="20"> Africahead Ipparts (AFA)</a></td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br><a href="https://bscscan.com/address/0x2f87a3e47e7f00156801923765d34901bb63456b"
-    target="_blank">Pancakeswap MYM/AFA at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/AFA</b></td>
-  </tr>
-  
-  <tr>
-    <td>MYM <b>will</b> be used to buy The Rock (ROCK) 
-    brand tokens at Pancakeswap. ROCK Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0x9d73dc538a15fb6e8caceffec849a1a89d3e5b23
-    </div>
-    
-    </td>
-    <td><a href="../Tokens/rrd.html" target="_blank">
-    <img src="RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
-    alt="Africahead Ipparts logo image" height="20" width="20"> Africahead Ipparts (AFA)Get the RRD Whitepaper.</a>
-    </td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br>Liquidity pool will be formed.<a href="https://bscscan.com/address/0x2f87a3e47e7f00156801923765d34901bb63456b"
-    target="_blank">Pancakeswap MYM/AFA at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/ROCK</b></td>
-  </tr>
-  
-  <tr>
-    <td>MYM <b>will</b> be used to buy The Rose (ROSE) 
-    brand tokens at Pancakeswap. ROSE Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0x6d380902aaa1d9f0f95a94d5b6e0b4cfd1cde155
-    </div>
-    
-    </td>
-    <td><a href="../Tokens/rrd.html" target="_blank">
-    <img src="RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
-    alt="Africahead Ipparts logo image" height="20" width="20"> Africahead Ipparts (AFA)Get the RRD Whitepaper</a>
-    </td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br>Liquidity pool will be formed.<a href="https://bscscan.com/address/0x2f87a3e47e7f00156801923765d34901bb63456b"
-    target="_blank">Pancakeswap MYM/AFA at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/ROSE</b></td>
-  </tr>
-  
-  <tr>
-    <td>MYM <b>will</b> be used to buy The Dog (DOG) 
-    brand tokens at Pancakeswap. DOG Contract address on BSC:
-    <div style="word-wrap: break-word; width: 200px">
-                0xd910eeb06b86d8764731f68751a20f54aa738b6e
-    </div>
-    
-    </td>
-    <td><a href="../Tokens/rrd.html" target="_blank">
-    <img src="RaisingCapital_files/AfricaheadDonkerblouNaLinks.png"
-    alt="Africahead Ipparts logo image" height="20" width="20"> Africahead Ipparts (AFA)Get the RRD Whitepaper.</a>
-    </td>
-    <td><img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="MYM logo" height="20" width="20"> MYM</a>
-    
-    <br>Liquidity pool will be formed.<a href="https://bscscan.com/address/0x2f87a3e47e7f00156801923765d34901bb63456b"
-    target="_blank">Pancakeswap MYM/AFA at BSCscan</a>
-    <br>
-    
-    </td>
-    <td><b>MYM/DOG</b></td>
-  </tr>
-  
-      </table>-->
-            
-            <!--<p>MYM can be purchased at decentralised cryptocurrency exchanges on the Binance Smart Chain.</p-->
-            
-            <!--<h2>Recommended Wallets</h2>
-            
-            <p>Sign with a
-            <br><img src="Moiom_files/imTokenLogo.svg" alt="imToken" height="60" width="180">
-            <br><a href="https://token.im/" target="_blank">imToken Wallet</a>
-            <br>to connect and transact on Android Mobile at:</p>
-            
-            
-               
-               
-                <p><b>∞ ⋈ ∞ ⋈ ∞ ⋈ ∞ ⋈ ∞ ⋈ ∞ ⋈</b></p>
-            
-            <p>The URL of the <a href="https://africahead.github.io/Africahead/Ipparts_files/ippaex.tokenlistbsc.json" target="_blank">
-                IPPAEX Token List</a> can self be added to Pancakeswap.</p>    
-                
-            
-            <p>Ipparts Exchange (IPPAEX) tokens can be transferred between the Ethereum blockchain and
-            the Binance Smart Chain (BSC). Contact Africahead to arrange a transfer.</p>-->
-            
-                  
-          
-           
-           <h2>Contact details:</h2>
-           
-           <p>Email:
-               <a href="mailto:africahead2@gmail.com?subject=Africahead Ipparts (AFA)">africahead2@gmail.com</a>
-               or 
-               <a href="mailto:mdpienaar@africahead.co.za?subject=Africahead Ipparts (AFA)">mdpienaar@africahead.co.za</a>.
-           </p>    
-               
-           <p>Chat: 
-                  <!--<a href="https://gitter.im/Africahead/Lobby" target="_blank">Africahead lobby</a> at https://gitter.im
-                   or -->
-                   <a href="https://t.me/ippaex" target="_blank"> Telegram Chat Group</a>
-                   or 
-                   <!--<a href="https://chat.whatsapp.com/K5sjXzrA81lLDukeNe1CG7" target="_blank"> WhatsApp</a>.--></p>
-         <p>
-          <!--News: <a href="https://t.me/joinchat/AAAAAFDUXipgpuHCV0E9ug" target="_blank">Telegram News - not for chatting</a>.-->
-         <br><br><a href="Promotions.html" target="_blank">Other</a> social media profiles.</p>
-         
-         
-        
-        <!-- AddToAny BEGIN -->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<a class="a2a_dd" href="https://www.addtoany.com/share">Sharing</a>
+    /* ROADMAP */
+    .roadmap-item {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      margin-bottom: 22px;
+    }
+    .roadmap-num {
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--sol-purple);
+      color: #fff;
+      font-weight: 800;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .roadmap-num.done {
+      background: var(--sol-green);
+      color: #0a0a14;
+    }
+    .roadmap-text {
+      flex: 1;
+      font-size: clamp(17px, 2vw, 20px);
+      padding-top: 6px;
+    }
+    .badge-done {
+      display: inline-block;
+      background: rgba(20,241,149,0.15);
+      color: var(--sol-green);
+      border: 1px solid var(--sol-green);
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 2px 10px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    /* SOCIAL */
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-top: 18px;
+    }
+    .social-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px 12px;
+      border-radius: 12px;
+      font-size: 19px;
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid #2a2a55;
+      background: var(--bg-card2);
+      color: var(--text-main);
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .social-btn:hover {
+      border-color: var(--sol-green);
+      background: rgba(20,241,149,0.07);
+      color: var(--sol-green);
+      text-decoration: none;
+    }
+
+    /* EMBED */
+    .embed-wrap {
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid #2a2a55;
+      margin: 20px 0;
+    }
+
+    /* DIVIDER */
+    .divider {
+      border: none;
+      border-top: 1px solid #222244;
+      margin: 36px 0;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--bg-card);
+      border-top: 2px solid var(--sol-purple);
+      padding: 18px 20px;
+    }
+    footer nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 4px;
+      justify-content: center;
+    }
+    footer nav ul li a {
+      color: var(--text-muted);
+      font-size: 16px;
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: color 0.2s;
+    }
+    footer nav ul li a:hover { color: var(--sol-green); }
+
+    /* ADDTOANY */
+    .a2a_kit { margin-top: 10px; }
+
+    @media (max-width: 500px) {
+      .card { padding: 22px 16px; }
+      .btn { padding: 13px 22px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Team.html">Team</a></li>
+      <li><a href="IppartsExchange.html" target="_blank">IPPAEX</a></li>
+      <li><a href="Moyom.html" target="_blank">Ethereum</a></li>
+      <li><a href="https://github.com/africahead" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-symbol">∞ ⋈ ∞ ∞ ⋈ ∞ ∞ ⋈ ∞</div>
+  <h1>Moyom (MYM)<br>Venture Capital &amp; Angel Money<br>on the Solana Chain</h1>
+  <div class="logos-row">
+    <img src="Moiom_files/MoiomLogoCorelJan102009GIFMovie2.gif" alt="Moiom logo MIM 1999" height="99" width="100">
+    <img src="Moiom_files/TransparentFriendsFMoyomLogo.png" alt="transparent Moyom logo" height="99" width="100">
+    <img src="Moiom_files/RotatingMYM2.gif" alt="MYM GIF" height="99" width="100">
+    <img src="Moiom_files/ReworkedRanzoKiyama.gif" alt="From Telegram @RanzoKiyama" height="99" width="100">
+    <img src="Moiom_files/ReworkedRanzoKiyama2.gif" alt="From Telegram @RanzoKiyama" height="99" width="100">
+  </div>
 </div>
-<script async src="https://static.addtoany.com/menu/page.js"></script>
-<!-- AddToAny END -->
-         
-        </section>
-        <!--<aside>
-          <a class="twitter-timeline"
-             href="https://twitter.com/mdpienaar/timelines/1157688562571259905?ref_src=twsrc%5Etfw" height="3600"
-           overflow="scroll">$MYMuti
-           - Curated tweets by mdpienaar</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </aside>-->
-    </main>
-    
-          <footer>
-              <nav>
-                  <ul>
-                      <li><a href="../index.html">Home</a></li>
-                      <li><a href="Contact.html">Contact</a></li>
-                      <li><a href="Team.html">Team</a></li>
-                      <li><a href="IppartsExchange.html" target="_blank">IPPAEX</a></li>
-                      <!--<li><a href="BookingOrdersSellAFA.html" target="_blank">AFA Offers</a></li>
-                      <li><a href="RaisingCapital.html" target="_blank">AFA Terms</a></li>-->
-                      <li><a href="Moyom.html" target="_blank">Ethereum</a></li>
-                      
-                      <li><a href="https://github.com/africahead" target="_blank">GitHub</a></li>
-                      
-                  </ul>
-                </nav>
-            </footer>
-          
-          <div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = THIS URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://africahead.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<script id="dsq-count-scr" src="//africahead.disqus.com/count.js" async></script>
-          
-        </body>
-    
-    <!--<iframe
-  src="https://uniswap.exchange/swap?outputCurrency=0xb9892f9a892f3e251fc58b9076c56add528eb8a6"
-  height="660px"
-  width="100%"
-  style="
-    border: 0;
-    margin: 0 auto;
-    display: block;
-    border-radius: 10px;
-    max-width: 600px;
-    min-width: 300px;
-  "
-  id="MYid"
-/>-->
-    
-    </html>
+<main>
+
+  <!-- BUY BUTTONS -->
+  <div class="buy-buttons">
+    <a class="btn btn-primary" href="https://pump.fun/coin/9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump" target="_blank">🚀 Buy on pump.fun</a>
+    <a class="btn btn-secondary" href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump" target="_blank">⚡ Swap MYM</a>
+    <a class="btn btn-secondary" href="Moiom_files/MoyomWhitePaper3-signed.pdf" target="_blank">📄 Whitepaper</a>
+  </div>
+
+  <!-- WARNING -->
+  <div class="warning-box">
+    NB: Developing MYM is a long term project. No guarantees can be given and it is not a token to buy for short term profit or retirement savings.
+  </div>
+
+  <!-- CONTRACT ADDRESS -->
+  <div class="card card-accent">
+    <h2 class="section-title">Contract Address — Solana</h2>
+    <div class="contract-label">Only approved MYM contract address on Solana:</div>
+    <div class="contract-box">9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump</div>
+    <p style="font-size:18px; color: #ccc;">Always verify the contract address above before interacting with MYM on the Solana Chain.</p>
+  </div>
+
+  <!-- LIVE CHART -->
+  <div class="card">
+    <h2 class="section-title">Live Chart</h2>
+    <div class="embed-wrap">
+      <iframe height="800px" width="100%" id="geckoterminal-embed" title="GeckoTerminal Embed"
+        src="https://www.geckoterminal.com/solana/pools/E9qutrxEKXkGLAiQVVTC5sBwr6d6a6hgcFYC6PZAH2Mr?embed=1&info=1&swaps=1&grayscale=0&light_chart=0&chart_type=price&resolution=15m"
+        frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+    </div>
+    <p style="margin-top:14px;">
+      <a href="https://docs.google.com/spreadsheets/d/1OUCaOcgTRWzn3fwoLvDTwjvN28YvyPe4YQmV9DLxzT8/edit?usp=sharing" target="_blank">
+        📊 Price Calculation by date on Google Sheets
+      </a>
+    </p>
+  </div>
+
+  <!-- WHAT IS MYM -->
+  <div class="card">
+    <h2 class="section-title">What is MYM?</h2>
+    <p>
+      Moyom (MYM) is venture capital / angel money, used on
+      <a href="IppartsExchange.html" target="_blank">Ipparts Exchange (IPPAEX)</a> (in development),
+      to buy and sell brand currencies contractually backed by <strong>goodwill</strong>.
+    </p>
+    <p>
+      Goodwill is an abstract asset worth trillions, included in share prices, but often not
+      capitalised in equity of companies managing it under International Accounting Standards.
+      Goodwill exists at the start of business — so it can be used to raise startup capital
+      in the form of brand currencies. Established businesses can also monetize their goodwill
+      by listing brand currencies on IPPAEX.
+    </p>
+    <p>
+      <strong>1,000,000,000 MYM</strong> were issued on the Solana chain. MYM is traded at
+      <a href="https://pump.fun/coin/9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump" target="_blank">pump.fun</a>
+      and
+      <a href="https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=9izsfm62akwsFz3kxEqZyd1XnBsWSg7y7yMtvK23pump" target="_blank">swap.pump.fun</a>.
+      MYM is also issued over the counter on the Ethereum Blockchain; the OTC issue price on Ethereum follows the Solana price.
+    </p>
+
+    <h3 class="sub-title">Community Trading Policy</h3>
+    <p>
+      At pump.fun and swap.pump.fun, MYM is in a liquidity pool with Solana (SOL). A risk in the
+      liquidity pool is large buyers dumping on small buyers. Therefore the community policy is:
+      <strong>do not buy more than 20 million MYM.</strong>
+      This reduces the risk of large buyers dumping on small buyers. Buying and holding 20 million MYM or less
+      means a holder's value can grow with the project, whilst not scaring away other buyers.
+    </p>
+  </div>
+
+  <!-- ROADMAP -->
+  <div class="card">
+    <h2 class="section-title">Roadmap</h2>
+
+    <div class="roadmap-item">
+      <div class="roadmap-num done">1</div>
+      <div class="roadmap-text">
+        Sell Moyom (MYM) at Pump.fun from the Bondpool. MYM must graduate on Pump.fun. Africahead ownership of IPPAEX tokens is stated in this
+        <a href="https://docs.google.com/spreadsheets/d/1epB-JtSHOHncCZyRkDU1JzBPloYptOrWpMh_8Mnk6jI/edit?usp=sharing" target="_blank">Google Sheet</a>.
+        Africahead will do its best to prevent rugs by large buyers, by keeping large buyers out.
+        <span class="badge-done">✓ Completed 22 June 2025</span>
+      </div>
+    </div>
+
+    <div class="roadmap-item">
+      <div class="roadmap-num done">2</div>
+      <div class="roadmap-text">
+        Be promoted to the Pumpswap exchange when the Bondpool on Pump.fun is filled 100%.
+        <span class="badge-done">✓ Completed 22 June 2025</span>
+      </div>
+    </div>
+
+    <div class="roadmap-item">
+      <div class="roadmap-num done">3</div>
+      <div class="roadmap-text">
+        115,000,000 MYM was bought by Africahead and locked
+        until 22 June 2026 at
+        <a href="https://docs.google.com/spreadsheets/d/1epB-JtSHOHncCZyRkDU1JzBPloYptOrWpMh_8Mnk6jI/edit?usp=sharing" target="_blank">app.streamflow.finance</a>.
+        <span class="badge-done">✓ Completed</span>
+      </div>
+    </div>
+
+    <div class="roadmap-item">
+      <div class="roadmap-num">4</div>
+      <div class="roadmap-text">
+        MYM must trade on the Solana chain while the value increases. MYM must be issued as stated
+        in the White Paper to raise the <strong>125 million USD</strong> value, which will be used
+        to build Ipparts Exchange (IPPAEX). As of June 3, 2025, no capital has been raised yet.
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- WHITEPAPER / VIDEO -->
+  <div class="card">
+    <h2 class="section-title">Information</h2>
+    <p>
+      <a href="Moiom_files/MoyomWhitePaper3-signed.pdf" target="_blank">📄 Read the Whitepaper</a>
+    </p>
+    <p>YouTube reading of a whitepaper — make sure to also read the latest whitepaper yourself:</p>
+    <div class="embed-wrap" style="max-width:500px;">
+      <iframe width="100%" height="281" src="https://www.youtube.com/embed/Hf4SckPg-bo?si=lcEIqhiP35PCP9Ap"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- SOCIAL MEDIA -->
+  <div class="card">
+    <h2 class="section-title">Social Media</h2>
+    <div class="social-grid">
+      <a class="social-btn" href="https://t.me/ippaex" target="_blank">✈️ Telegram</a>
+      <a class="social-btn" href="https://x.com/woof27308706" target="_blank">✖ X (Twitter)</a>
+      
+      <a class="social-btn" href="https://web.facebook.com/ippaex/" target="_blank">📘 Facebook</a>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="card">
+    <h2 class="section-title">Contact</h2>
+    <p>
+      Email:
+      <a href="mailto:africahead2@gmail.com?subject=Africahead Ipparts (AFA)">africahead2@gmail.com</a>
+      or
+      <a href="mailto:mdpienaar@africahead.co.za?subject=Africahead Ipparts (AFA)">mdpienaar@africahead.co.za</a>
+    </p>
+    <p>
+      Chat:
+      <a href="https://t.me/ippaex" target="_blank">Telegram Chat Group</a>
+    </p>
+    <p>
+      <a href="Promotions.html" target="_blank">Other social media profiles</a>
+    </p>
+
+    <!-- AddToAny -->
+    <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="margin-top:18px;">
+      <a class="a2a_dd" href="https://www.addtoany.com/share">Share this page</a>
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </div>
+
+</main>
+
+<footer>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Team.html">Team</a></li>
+      <li><a href="IppartsExchange.html" target="_blank">IPPAEX</a></li>
+      <li><a href="Moyom.html" target="_blank">Ethereum</a></li>
+      <li><a href="https://github.com/africahead" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+</footer>
+
+
+
+</body>
+</html>
