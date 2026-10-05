@@ -66,7 +66,7 @@ main {
     background-color: lightgrey;
     color: black;
     /*
-    max-width: 700px;
+    max-width: 465px;
     */
     text-align: center;
     display: inline-block;
@@ -144,3 +144,246 @@ footer {
     top: 80px;
 }
 
+
+
+/* ==========================================================
+   MOBILE FRIENDLY STYLES
+   Applies to phones and small tablets (screens up to 768px
+   wide). Desktop styles above are left unchanged.
+   ========================================================== */
+
+/* Images should never be wider than the screen (all sizes) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Stop phones from enlarging/shrinking text on their own,
+       and make padding/borders count inside element widths */
+    html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 1.5;
+        overflow-x: hidden;
+    }
+
+    /* Long links, addresses and words wrap instead of
+       pushing the page sideways */
+    p, td, th, li, a, h1, h2, h3 {
+        overflow-wrap: anywhere;
+        word-wrap: break-word;
+    }
+
+    /* ---------- Header / footer / navigation ---------- */
+
+    /* Fixed header would cover content once the menu wraps
+       onto several lines, so let it scroll with the page */
+    header {
+        position: static;
+        width: 100%;
+    }
+
+    footer {
+        position: static;
+        top: 0;
+        width: 100%;
+        padding: 4px 0;
+    }
+
+    nav {
+        display: block;
+        width: auto;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    /* Menu: two big, easy-to-tap buttons per row */
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    li a {
+        display: block;
+        padding: 12px 6px;       /* tap target of 44px or more */
+        border-radius: 5px;
+    }
+
+    /* ---------- Page layout ---------- */
+
+    main {
+        display: block;
+        width: auto;
+        top: 0;
+        margin: 8px;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    section {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+    aside {
+        float: none;
+        display: block;
+        width: 100%;
+        top: 0;
+        margin: 8px 0;
+        padding: 8px;
+    }
+
+    /* ---------- Text sizes ---------- */
+
+    h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 1.25;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    p {
+        font-size: 18px;         /* comfortable reading size on phones */
+        line-height: 1.6;
+        text-align: left;        /* long centered paragraphs are hard to read */
+    }
+
+    /* Links inside text: bigger touch area */
+    p a {
+        padding: 3px 6px;
+        display: inline-block;
+    }
+
+    /* ---------- Tables ----------
+       Four columns do not fit on a phone, so every table row
+       becomes a stacked "card" with a label above each value. */
+
+    table {
+        display: block;
+        width: 100% !important;
+        border: 0;
+        font-size: 18px;
+    }
+
+    tbody {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        display: block;
+        width: 100%;
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+        border: 0;
+        text-align: left;
+    }
+
+    /* Section titles of the table (UTILITY TOKEN, LISTED BRAND TOKENS ...) */
+    th[colspan] {
+        text-align: center;
+        padding: 8px 6px;
+    }
+
+    /* The column heading row is replaced by labels inside each card */
+    tr:has(> th:not([colspan])) {
+        display: none;
+    }
+
+    tr:has(> td) {
+        margin: 8px 0 16px;
+        border: 2px solid #555;
+        border-radius: 8px;
+        background-color: #f2f2f2;
+        overflow: hidden;
+    }
+
+    td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #bbb;
+    }
+
+    td:last-child {
+        border-bottom: 0;
+    }
+
+    td::before {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: #555;
+        margin-bottom: 2px;
+    }
+
+    td:nth-child(1)::before { content: "Ticker Symbol & Trading"; }
+    td:nth-child(2)::before { content: "Brand & Terms"; }
+    td:nth-child(3)::before { content: "Twitter Tag"; }
+    td:nth-child(4)::before { content: "Twitter Handle"; }
+
+    /* Small icons inside table links keep their size */
+    td img {
+        vertical-align: middle;
+    }
+
+    /* ---------- Comments / sharing widgets ---------- */
+
+    #disqus_thread {
+        padding: 8px;
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: lightgrey;
+    }
+
+    .a2a_kit {
+        padding: 8px 0;
+    }
+}
+
+/* Very small phones (older/compact devices) */
+@media screen and (max-width: 360px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 24px; }
+    li { font-size: 17px; }
+}
