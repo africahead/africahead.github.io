@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MYM on pump.fun</title>
 
   <meta name="twitter:card" content="summary_large_image">
@@ -33,6 +33,7 @@
       font-family: 'Segoe UI', Arial, sans-serif;
       font-size: 20px;
       line-height: 1.7;
+      overflow-wrap: break-word;
     }
 
     /* NAV */
@@ -54,7 +55,7 @@
     header nav ul li a {
       color: var(--sol-green);
       text-decoration: none;
-      font-size: 51px;
+      font-size: clamp(16px, 2.2vw, 22px);
       font-weight: 600;
       padding: 6px 14px;
       border-radius: 8px;
@@ -74,9 +75,9 @@
       border-bottom: 1px solid #222244;
     }
     .hero-symbol {
-      font-size: 32px;
+      font-size: clamp(16px, 5vw, 32px);
       color: var(--sol-purple);
-      letter-spacing: 4px;
+      letter-spacing: 2px;
       margin-bottom: 16px;
     }
     .hero h1 {
@@ -214,9 +215,10 @@
     }
     .btn {
       display: inline-block;
-      padding: 28px 64px;
+      padding: 16px 32px;
+      text-align: center;
       border-radius: 10px;
-      font-size: clamp(26px, 3.5vw, 36px);
+      font-size: clamp(18px, 3vw, 26px);
       font-weight: 700;
       text-decoration: none;
       transition: transform 0.15s, box-shadow 0.15s;
@@ -280,9 +282,9 @@
       color: var(--sol-green);
       border: 1px solid var(--sol-green);
       border-radius: 6px;
-      font-size: 22px;
+      font-size: clamp(14px, 2vw, 18px);
       font-weight: 700;
-      padding: 6px 18px;
+      padding: 4px 12px;
       margin-left: 8px;
       vertical-align: middle;
     }
@@ -290,7 +292,7 @@
     /* SOCIAL */
     .social-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
       gap: 24px;
       margin-top: 18px;
     }
@@ -299,9 +301,9 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
-      padding: 32px 24px;
+      padding: 18px 20px;
       border-radius: 12px;
-      font-size: 32px;
+      font-size: clamp(18px, 3vw, 24px);
       font-weight: 700;
       text-decoration: none;
       border: 1px solid #2a2a55;
@@ -317,6 +319,7 @@
     }
 
     /* EMBED */
+    #geckoterminal-embed { height: 800px; }
     .embed-wrap {
       border-radius: var(--radius);
       overflow: hidden;
@@ -346,7 +349,7 @@
     }
     footer nav ul li a {
       color: var(--text-muted);
-      font-size: 48px;
+      font-size: clamp(15px, 2vw, 20px);
       text-decoration: none;
       padding: 6px 12px;
       border-radius: 6px;
@@ -357,9 +360,14 @@
     /* ADDTOANY */
     .a2a_kit { margin-top: 10px; }
 
-    @media (max-width: 500px) {
-      .card { padding: 22px 16px; }
-      .btn { padding: 13px 22px; }
+    @media (max-width: 600px) {
+      main { padding: 24px 14px 40px; }
+      .card { padding: 20px 16px; }
+      .hero { padding: 36px 14px 28px; }
+      .buy-buttons .btn { width: 100%; }
+      .roadmap-item { gap: 12px; }
+      .badge-done { display: block; margin: 8px 0 0; width: fit-content; }
+      #geckoterminal-embed { height: 550px; }
     }
   </style>
 </head>
